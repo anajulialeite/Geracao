@@ -1,23 +1,11 @@
 function verificarGeracao() {
-    let anoInput = document.getElementById("ano").value;
+    let ano = parseInt(document.getElementById("ano").value);
     let resultado = document.getElementById("resultado");
 
-    //Uma condição para verificar se o  ano tem exatamente 4 dígitos
-    if (anoInput.value.length > 4) {
-        anoInput.value = anoInput.value.slice(0, 4);
+    if (isNaN(ano)) {
+        resultado.textContent = "Por favor, insira um ano válido!";
+        return;
     }
-
-    if (anoInput.value.length === 4) {
-        let ano = parseInt(anoInput.value);
-        verificarGeracao(ano);
-    } else {
-        resultado.textContent = ""; // Limpa o resultado se não houver 4 dígitos
-    }
-}
-
-function verificarGeracao(ano) {
-    let resultado = document.getElementById("resultado"); 
-}
 
     if (ano >= 1928 && ano <= 1945) {
         resultado.textContent = "Você pertence à Geração Silenciosa. Valorizam estabilidade e trabalho duro.";
@@ -34,3 +22,4 @@ function verificarGeracao(ano) {
     } else {
         resultado.textContent = "Ano de nascimento inválido.";
     }
+}
