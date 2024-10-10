@@ -1,9 +1,10 @@
 function verificarGeracao() {
-    let ano = parseInt(document.getElementById("ano").value);
+    let anoInput = document.getElementById("ano").value;
     let resultado = document.getElementById("resultado");
 
-    if (isNaN(ano)) {
-        resultado.textContent = "Por favor, insira um ano válido!";
+   //Uma condição para verificar se o  ano tem exatamente 4 dígitos
+    if (!/^\d{4}$/.test(anoInput)) {
+        resultado.textContent = "Por favor, insira um ano válido com 4 dígitos!";
         return;
     }
 
