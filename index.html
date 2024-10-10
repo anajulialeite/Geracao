@@ -10,7 +10,7 @@
     <div class="container">
         <h1>Descubra sua Geração!</h1>
         <p>Digite o seu ano de nascimento para saber a qual geração você pertence.</p>
-        <input type="number" id="ano" placeholder="Ano de nascimento"><br>
+        <input type="text" id="ano" placeholder="Ano de nascimento" oninput="this.value = this.value.replace(/[^0-9]/g, '')" maxlength="4"/><br>
         <button onclick="verificarGeracao()">Verificar Geração</button>
         <div id="resultado"></div>
     </div>
