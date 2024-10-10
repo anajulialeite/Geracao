@@ -8,6 +8,8 @@ function verificarGeracao() {
         return;
     }
 
+    let ano = parseInt(anoInput);
+
     if (ano >= 1928 && ano <= 1945) {
         resultado.textContent = "Você pertence à Geração Silenciosa. Valorizam estabilidade e trabalho duro.";
     } else if (ano >= 1946 && ano <= 1964) {
