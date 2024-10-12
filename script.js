@@ -17,8 +17,10 @@ function verificarGeracao() {
         resultado.textContent = "Você pertence à Geração Millennials. Viram o crescimento da internet e das redes sociais.";
     } else if (ano >= 1996 && ano <= 2010) {
         resultado.textContent = "Você pertence à Geração Z. Totalmente digital e adaptados à tecnologia.";
-    } else if (ano >= 2011) {
+    } else if (ano >= 2011 && ano <= 2024) {
         resultado.textContent = "Você pertence à Geração Alpha. Crescendo em um mundo hiperconectado e tecnológico.";
+    } else if (ano <= 2024) {
+        "Você pertence à Geração Alpha. Crescendo em um mundo hiperconectado e tecnológico.";
     } else {
         resultado.textContent = "Ano de nascimento inválido.";
     }
