@@ -7,3 +7,7 @@ Este é um site que você digita o ano em que nasceu, depois clica no botão <st
 Espero que tenha gostado, divirta-se!
 
 Esse é o link do meu projeto: https://anajulialeite.github.io/Geracao/
+
+# License
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
