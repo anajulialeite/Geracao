@@ -1,6 +1,6 @@
 # Geração
 
-<img src="Imagem/html-css-js.png" alt="Logo" align="left" width="150">
+<img src="Imagem/html-css-js.png" alt="Logo" align="center" width="150">
 
 Este é um site que você digita o ano em que nasceu, depois clica no botão <strong>verificar geração</strong> e descobre em qual grupo de geração você faz parte.
 
