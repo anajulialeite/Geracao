@@ -10,7 +10,7 @@ Espero que tenha gostado, divirta-se!
 
 <img src="Imagem/Geração.png" alt="geração" align="center" width="300">
 
-## Link do site
+## Link do projeto
 
 Este é o link do meu Projeto <a href= "https://anajulialeite.github.io/Geracao/">Geração</a>
 
