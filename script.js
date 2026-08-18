@@ -27,7 +27,7 @@ function verificarGeracao() {
         resultado.textContent = "Você pertence à Geração Z. Totalmente digital e adaptados à tecnologia.";
     } else if (ano >= 2013 && ano <= 2024) {
         resultado.textContent = "Você pertence à Geração Alpha. Crescendo em um mundo hiperconectado e tecnológico.";
-    } else if (ano <= 2025) {
+    } else if (ano >= 2025 && ano <= 2025) {
         resultado.textContent = "Você pertence à Geração Beta. Percendo em um mundo hiperconectado e tecnológico.";
     } else {
         resultado.textContent = "Ano de nascimento inválido.";
