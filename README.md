@@ -6,9 +6,22 @@ Este é um site que você digita o ano em que nasceu, depois clica no botão <st
 
 Espero que tenha gostado, divirta-se!
 
+## Funcionalidades
+
+- Identificação da geração pelo ano de nascimento
+- Validação da entrada informada pelo usuário
+- Exibição dinâmica do resultado
+- Breve descrição de cada geração
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+
 ## Demonstração
 
-<img src="Imagem/Geração.png" alt="geração" align="center" width="300">
+<img src="Imagem/Geração.png" alt="geração" align="center" width="800">
 
 ## Link do projeto
 
