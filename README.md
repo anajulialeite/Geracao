@@ -25,7 +25,11 @@ Espero que tenha gostado, divirta-se!
 
 ## Link do projeto
 
-Este é o link do meu Projeto <a href= "https://anajulialeite.github.io/Geracao/">Geração</a>
+## Link do Projeto
+
+<a href="https://anajulialeite.github.io/Geracao/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Acessar%20Projeto-%232d0b63?style=for-the-badge" alt="Acessar Projeto Geração"/>
+</a>
 
 ## License
 
