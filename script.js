@@ -8,11 +8,11 @@ function verificarGeracao() {
     }
 
     if (ano >= 1883 && ano <= 1900) {     
-        resultado.textContent = "Você pertence à Geração Perdida. Vivenciaram a Primeira Guerra Mundial e a Grande Depressão.";
+        resultado.textContent = "Você pertence à Maior Geração. Participaram da Segunda Guerra Mundial e da reconstrução pós-guerra.";
         }
 
     else if (ano >= 1901 && ano <= 1927) {
-        resultado.textContent = "Você pertence à Maior Geração.o. Participaram da Segunda Guerra Mundial e da reconstrução pós-guerra.";
+        resultado.textContent = "Você pertence à Maior Geração Participaram da Segunda Guerra Mundial e da reconstrução pós-guerra.";
     }
 
     else if (ano >= 1928 && ano <= 1945) {
