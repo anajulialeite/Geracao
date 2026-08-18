@@ -23,8 +23,6 @@ Espero que tenha gostado, divirta-se!
 
 <img src="Imagem/Geração.png" alt="geração" align="center" width="800">
 
-## Link do projeto
-
 ## Link do Projeto
 
 <a href="https://anajulialeite.github.io/Geracao/" target="_blank" rel="noopener noreferrer">
